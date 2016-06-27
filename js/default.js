@@ -1,4 +1,4 @@
-for(ver i=1; i<100; i++9{
+for(ver i=1; i<100; i++){
   var li = document.createElement('li');
 li.textContent ='i+'回目';
 document.getElementById('list').appendChild(li);
