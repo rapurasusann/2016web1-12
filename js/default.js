@@ -1,6 +1,6 @@
 for(var i=1; i<=100; i++){
   var li = document.createElement('li');
-  if(var%3==0)
+  if(i%3==0)
   {
     li.trxtContent = 'Fizz';
   }
