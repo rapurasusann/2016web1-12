@@ -2,11 +2,11 @@ for(var i=1; i<=100; i++){
   var li = document.createElement('li');
   if(i%3==0)
   {
-    li.trxtContent = 'Fizz';
+    li.trxtContent =+ 'Fizz';
   }
   else if(i%5==0)
   {
-    li.trxtContent = 'Bizz';
+    li.trxtContent = +'Bizz';
   }
   else
   {
