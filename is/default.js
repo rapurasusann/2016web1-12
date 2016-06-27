@@ -3,5 +3,5 @@ li.textContent =’アイテム';
 document.getElementById('list').appendChild(li);
 
 document.getElementById('form').onsubmit = function(){
-  window.alert('押されました！');
+  window.alert(document.getElementById('form').word.value);
 };
