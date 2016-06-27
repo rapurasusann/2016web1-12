@@ -2,7 +2,7 @@ for(var i=1; i<=100; i++){
   var li = document.createElement('li');
   if(i%3==0)
   {
-    li.trxtContent = 'Fizz';
+    li.trxtContent = Fizz;
   }
   else
   {
